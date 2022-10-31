@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Weather App</h1>
+        <div>
+            <input type="text" id="input" placeholder="Enter name of the City">
+            <button id="search">Search</button>
+        </div>
+    </div>
+    <main>
+        <div class="weather">
+            <h2 id="city">Delhi</h2>
+            <div class="temp-box">
+                <img id="img" src="/weather.png" alt="">
+                <p id="temperature" >26 °C</p>
+            </div>
+            <span id="clouds">Broken Clouds</span>
+        </div>
+        <div class="divider1"></div>
+        <div class="forecastH">
+            <p class="cast-header">
+                Upcoming Forecast
+            </p>
+            <div class="templist">
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>27 °C / 25 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+                
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>27 °C / 25 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>27 °C / 25 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">8:30 PM</p>
+                        <p>27 °C / 25 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="forecastD">
+        <div class="divider2"></div>
+        <p class="cast-header">Next 4 days Forecast</p>
+        <div class="weekF">
+            <div class="dayF">
+                <p class="date">Sun Jul 03</p>
+                <p>31 °C / 29 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun Jul 03</p>
+                <p>31 °C / 29 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun Jul 03</p>
+                <p>31 °C / 29 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun Jul 03</p>
+                <p>31 °C / 29 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
