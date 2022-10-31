@@ -1,0 +1,109 @@
+body {
+    padding: 1rem 5rem;
+    font: Arial,Helvetica,sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#input {
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 2px solid rgb(44, 210, 222);
+    border-radius: 5px;
+}
+#search {
+    font-size: 20px;
+    border: 2px solid rgb(44, 210, 222) ;
+    border-radius: 5px;
+    /* background-color: rgb(229, 244, 232); */
+    cursor: pointer;
+}
+button:hover{
+    color: aliceblue;
+    background-color: rgb(44, 210, 222);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    grid-column-gap: 25px;
+    align-items: center;
+    margin: 0 50px;
+}
+.weather {
+    text-align: center;
+}
+#city{
+    font-size: 30px;
+}
+.weather img{
+    width: 120px;
+    height: 120px;
+
+}
+#temperature {
+    font-size: 50px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.temp-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#clouds{
+    font-size: 20px;
+    padding: 2px 20px;
+    color: aliceblue;
+    background-color:rgb(44, 210, 222);
+    border-radius: 15px;
+}
+
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.next p{
+    margin: 3px 0;
+}
+
+.cast-header{
+    color: aliceblue;
+    background-color:rgb(44, 210, 222);
+    border-radius: 15px;
+    width: max-content;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.divider1{
+    background-color:rgb(44, 210, 222) ;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.divider2{
+    background-color:rgb(44, 210, 222) ;
+    border-radius: 5px;
+    height: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+.forecastD{
+    margin: 20px 50px;
+}
+.weekF{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
